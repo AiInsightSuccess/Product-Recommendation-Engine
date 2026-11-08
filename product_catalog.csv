@@ -1,0 +1,71 @@
+item_id,product_name,category,price,margin_band,average_rating,stock_status,product_age_days
+ITEM001,Stainless Saucepan,Kitchen,103.12,high,3.7,in_stock,503
+ITEM002,Bamboo Chopping Board,Kitchen,68.74,medium,3.9,in_stock,206
+ITEM003,Ceramic Dinner Plate Set,Kitchen,24.74,medium,4.8,in_stock,433
+ITEM004,Glass Food Storage Set,Kitchen,38.57,medium,4.6,in_stock,269
+ITEM005,Compact Air Fryer,Kitchen,99.04,high,4.3,in_stock,90
+ITEM006,Digital Kitchen Scale,Kitchen,79.43,high,4.1,in_stock,527
+ITEM007,Insulated Lunch Box,Kitchen,35.79,medium,4.2,in_stock,248
+ITEM008,Reusable Baking Mat,Kitchen,48.78,medium,3.8,in_stock,378
+ITEM009,Manual Coffee Grinder,Kitchen,42.52,medium,4.8,in_stock,498
+ITEM010,Countertop Blender,Kitchen,11.93,low,3.7,in_stock,469
+ITEM011,Cotton Towel Set,Home,7.35,low,4.1,in_stock,277
+ITEM012,Soft Throw Blanket,Home,21.85,medium,4.0,in_stock,531
+ITEM013,Storage Basket,Home,49.13,medium,4.4,in_stock,145
+ITEM014,Table Lamp,Home,8.84,low,3.7,in_stock,288
+ITEM015,Scent-Free Candle Set,Home,32.23,medium,4.5,in_stock,179
+ITEM016,Wall Shelf,Home,28.63,medium,3.8,in_stock,510
+ITEM017,Laundry Hamper,Home,48.91,medium,4.6,in_stock,332
+ITEM018,Door Mat,Home,85.18,high,4.7,in_stock,198
+ITEM019,Desk Organizer,Home,33.15,medium,4.8,in_stock,464
+ITEM020,Memory Foam Pillow,Home,42.48,medium,4.1,in_stock,490
+ITEM021,Electric Toothbrush,Personal Care,21.97,medium,4.8,in_stock,492
+ITEM022,Travel Toiletry Bag,Personal Care,38.49,medium,3.8,limited_stock,412
+ITEM023,Hair Dryer,Personal Care,36.56,medium,4.3,in_stock,164
+ITEM024,Reusable Face Pads,Personal Care,77.87,high,4.4,in_stock,471
+ITEM025,Hand Care Set,Personal Care,16.95,low,4.8,in_stock,528
+ITEM026,Shower Caddy,Personal Care,50.58,medium,4.7,in_stock,162
+ITEM027,Bath Brush,Personal Care,15.32,low,4.5,in_stock,44
+ITEM028,Sleep Mask,Personal Care,33.81,medium,3.6,in_stock,51
+ITEM029,Compact Mirror,Personal Care,59.26,medium,4.4,in_stock,532
+ITEM030,Grooming Kit,Personal Care,75.67,high,3.9,in_stock,250
+ITEM031,Wireless Keyboard,Office Tech,135.73,high,4.9,limited_stock,522
+ITEM032,Ergonomic Mouse,Office Tech,89.33,high,4.4,in_stock,325
+ITEM033,Laptop Stand,Office Tech,27.25,medium,3.6,in_stock,225
+ITEM034,USB-C Hub,Office Tech,67.31,medium,4.0,in_stock,287
+ITEM035,Noise Reducing Headset,Office Tech,145.75,high,4.1,in_stock,279
+ITEM036,Desk Webcam,Office Tech,79.56,high,4.2,in_stock,162
+ITEM037,Portable Monitor Stand,Office Tech,77.05,high,3.7,in_stock,199
+ITEM038,Cable Management Kit,Office Tech,126.85,high,3.9,in_stock,118
+ITEM039,Rechargeable Desk Light,Office Tech,20.42,medium,3.9,in_stock,371
+ITEM040,Notebook Sleeve,Office Tech,33.95,medium,4.5,in_stock,480
+ITEM041,Yoga Mat,Fitness,29.33,medium,4.4,in_stock,29
+ITEM042,Resistance Band Set,Fitness,110.59,high,4.2,in_stock,150
+ITEM043,Foam Roller,Fitness,117.52,high,3.8,in_stock,448
+ITEM044,Adjustable Dumbbell,Fitness,34.12,medium,4.0,limited_stock,480
+ITEM045,Sports Water Bottle,Fitness,72.65,high,3.7,limited_stock,35
+ITEM046,Exercise Ball,Fitness,82.71,high,4.7,in_stock,131
+ITEM047,Ankle Weights,Fitness,99.26,high,4.2,limited_stock,513
+ITEM048,Skipping Rope,Fitness,90.75,high,4.8,limited_stock,144
+ITEM049,Cooling Towel,Fitness,51.49,medium,4.8,in_stock,269
+ITEM050,Gym Bag,Fitness,108.81,high,3.9,in_stock,239
+ITEM051,Lightweight Backpack,Outdoor,33.98,medium,4.4,in_stock,321
+ITEM052,Picnic Blanket,Outdoor,12.15,low,4.5,in_stock,26
+ITEM053,Camping Lantern,Outdoor,67.64,medium,4.7,in_stock,218
+ITEM054,Thermal Flask,Outdoor,119.89,high,4.7,in_stock,280
+ITEM055,Waterproof Phone Pouch,Outdoor,109.73,high,4.7,in_stock,287
+ITEM056,Foldable Chair,Outdoor,67.69,medium,4.4,in_stock,104
+ITEM057,Garden Gloves,Outdoor,28.36,medium,3.6,in_stock,81
+ITEM058,Solar Path Light,Outdoor,66.68,medium,3.6,in_stock,43
+ITEM059,Travel Umbrella,Outdoor,17.66,low,4.1,in_stock,255
+ITEM060,Compact First Aid Kit,Outdoor,97.92,high,3.6,in_stock,307
+ITEM061,Pet Food Bowl,Pet Supplies,7.29,low,3.8,in_stock,370
+ITEM062,Adjustable Pet Lead,Pet Supplies,20.92,medium,4.1,in_stock,531
+ITEM063,Pet Grooming Brush,Pet Supplies,71.22,high,4.4,in_stock,512
+ITEM064,Washable Pet Bed,Pet Supplies,99.49,high,3.9,limited_stock,344
+ITEM065,Treat Storage Jar,Pet Supplies,55.79,medium,4.3,limited_stock,473
+ITEM066,Pet Travel Carrier,Pet Supplies,64.3,medium,4.9,in_stock,191
+ITEM067,Interactive Pet Toy,Pet Supplies,12.85,low,4.6,in_stock,59
+ITEM068,Pet Waste Bag Holder,Pet Supplies,61.78,medium,4.3,in_stock,394
+ITEM069,Pet Cooling Mat,Pet Supplies,59.07,medium,3.9,in_stock,29
+ITEM070,Pet Blanket,Pet Supplies,63.53,medium,4.3,in_stock,456
