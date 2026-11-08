@@ -51,13 +51,16 @@ def prepare_interaction_strengths(interactions: pd.DataFrame) -> pd.DataFrame:
     prepared["item_id"] = prepared["item_id"].astype(str)
     prepared["event_type"] = prepared["event_type"].str.lower().str.strip()
 
+    default_strength = prepared["event_type"].map(EVENT_WEIGHTS).astype(float)
     if "event_strength" not in prepared.columns:
-        prepared["event_strength"] = prepared["event_type"].map(EVENT_WEIGHTS)
+        prepared["event_strength"] = default_strength
     else:
-        missing_strength = prepared["event_strength"].isna()
-        prepared.loc[missing_strength, "event_strength"] = prepared.loc[
-            missing_strength, "event_type"
-        ].map(EVENT_WEIGHTS)
+        # Use the file's event_strength where given; fill any blanks from EVENT_WEIGHTS.
+        # (Filling column-wise avoids an error in newer pandas versions when
+        # no values are missing.)
+        prepared["event_strength"] = pd.to_numeric(
+            prepared["event_strength"], errors="coerce"
+        ).fillna(default_strength)
 
     if prepared["event_strength"].isna().any():
         unknown_events = prepared.loc[prepared["event_strength"].isna(), "event_type"].unique()
