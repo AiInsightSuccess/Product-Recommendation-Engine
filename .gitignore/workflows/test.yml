@@ -1,1 +1,34 @@
+name: Test notebook
 
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install nbconvert ipykernel
+      - name: Check the full model packages are installed
+        run: python -c "import implicit, optuna; print('implicit', implicit.__version__, '| optuna', optuna.__version__)"
+      - name: Run the command-line script
+        run: python code/run_recommendation_engine.py
+      - name: Run the notebook top to bottom
+        run: jupyter nbconvert --to notebook --execute Product_Recommendation_Engine_Workbook.ipynb --ExecutePreprocessor.kernel_name=python3 --ExecutePreprocessor.timeout=1200 --output-dir executed
+      - name: Save the executed notebook and outputs
+        if: matrix.python-version == '3.12'
+        uses: actions/upload-artifact@v4
+        with:
+          name: recommendation-results
+          path: |
+            executed/Product_Recommendation_Engine_Workbook.ipynb
+            outputs/
+            !outputs/.matplotlib/
