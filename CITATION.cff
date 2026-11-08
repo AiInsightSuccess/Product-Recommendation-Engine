@@ -1,1 +1,18 @@
-
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Product Recommendation Engine (BM25 + ALS + Optuna)"
+abstract: "Beginner-friendly Python notebook, sample data and reusable code for building an implicit-feedback product recommendation engine using BM25 weighting, Alternating Least Squares matrix factorisation and Optuna hyperparameter search."
+authors:
+  - name: "AI Insights for Success"
+    website: "https://www.aiinsightsuccess.com"
+license: MIT
+repository-code: "https://github.com/AiInsightSuccess/Product-Recommendation-Engine"
+url: "https://www.aiinsightsuccess.com/blank-2-1-1"
+keywords:
+  - recommender system
+  - collaborative filtering
+  - alternating least squares
+  - implicit feedback
+  - optuna
+  - python
