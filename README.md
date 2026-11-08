@@ -1,4 +1,5 @@
 # Product Recommendation Engine (BM25 + ALS + Optuna)
+[![DOI](https://zenodo.org/badge/1450227047.svg)](https://doi.org/10.5281/zenodo.24060453)
 
 Free Python code and sample data from
 [AI Insights for Success](https://www.aiinsightsuccess.com/blank-2-1-1).
