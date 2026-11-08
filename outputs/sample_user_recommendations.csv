@@ -1,0 +1,51 @@
+user_id,rank,item_id,recommendation_score,product_name,category,price,margin_band,average_rating,stock_status,product_age_days
+CUST001,1,ITEM055,1.3246622,Waterproof Phone Pouch,Outdoor,109.73,high,4.7,in_stock,287
+CUST001,2,ITEM034,1.063064,USB-C Hub,Office Tech,67.31,medium,4.0,in_stock,287
+CUST001,3,ITEM008,0.99907553,Reusable Baking Mat,Kitchen,48.78,medium,3.8,in_stock,378
+CUST001,4,ITEM057,0.9459431,Garden Gloves,Outdoor,28.36,medium,3.6,in_stock,81
+CUST001,5,ITEM043,0.93816394,Foam Roller,Fitness,117.52,high,3.8,in_stock,448
+CUST001,6,ITEM011,0.8640024,Cotton Towel Set,Home,7.35,low,4.1,in_stock,277
+CUST001,7,ITEM070,0.8047649,Pet Blanket,Pet Supplies,63.53,medium,4.3,in_stock,456
+CUST001,8,ITEM007,0.76616204,Insulated Lunch Box,Kitchen,35.79,medium,4.2,in_stock,248
+CUST001,9,ITEM001,0.71082896,Stainless Saucepan,Kitchen,103.12,high,3.7,in_stock,503
+CUST001,10,ITEM018,0.7047648,Door Mat,Home,85.18,high,4.7,in_stock,198
+CUST002,1,ITEM002,1.1911292,Bamboo Chopping Board,Kitchen,68.74,medium,3.9,in_stock,206
+CUST002,2,ITEM015,1.1659334,Scent-Free Candle Set,Home,32.23,medium,4.5,in_stock,179
+CUST002,3,ITEM058,1.021924,Solar Path Light,Outdoor,66.68,medium,3.6,in_stock,43
+CUST002,4,ITEM033,0.98905957,Laptop Stand,Office Tech,27.25,medium,3.6,in_stock,225
+CUST002,5,ITEM042,0.87410414,Resistance Band Set,Fitness,110.59,high,4.2,in_stock,150
+CUST002,6,ITEM024,0.8655374,Reusable Face Pads,Personal Care,77.87,high,4.4,in_stock,471
+CUST002,7,ITEM032,0.8261962,Ergonomic Mouse,Office Tech,89.33,high,4.4,in_stock,325
+CUST002,8,ITEM069,0.82191926,Pet Cooling Mat,Pet Supplies,59.07,medium,3.9,in_stock,29
+CUST002,9,ITEM062,0.8068086,Adjustable Pet Lead,Pet Supplies,20.92,medium,4.1,in_stock,531
+CUST002,10,ITEM011,0.8051796,Cotton Towel Set,Home,7.35,low,4.1,in_stock,277
+CUST003,1,ITEM006,1.0804796,Digital Kitchen Scale,Kitchen,79.43,high,4.1,in_stock,527
+CUST003,2,ITEM057,1.0720533,Garden Gloves,Outdoor,28.36,medium,3.6,in_stock,81
+CUST003,3,ITEM048,1.0598096,Skipping Rope,Fitness,90.75,high,4.8,limited_stock,144
+CUST003,4,ITEM014,0.9605652,Table Lamp,Home,8.84,low,3.7,in_stock,288
+CUST003,5,ITEM024,0.9118074,Reusable Face Pads,Personal Care,77.87,high,4.4,in_stock,471
+CUST003,6,ITEM042,0.898911,Resistance Band Set,Fitness,110.59,high,4.2,in_stock,150
+CUST003,7,ITEM031,0.87953186,Wireless Keyboard,Office Tech,135.73,high,4.9,limited_stock,522
+CUST003,8,ITEM056,0.8709916,Foldable Chair,Outdoor,67.69,medium,4.4,in_stock,104
+CUST003,9,ITEM046,0.8264097,Exercise Ball,Fitness,82.71,high,4.7,in_stock,131
+CUST003,10,ITEM053,0.81065977,Camping Lantern,Outdoor,67.64,medium,4.7,in_stock,218
+CUST004,1,ITEM044,1.2969,Adjustable Dumbbell,Fitness,34.12,medium,4.0,limited_stock,480
+CUST004,2,ITEM003,0.9820071,Ceramic Dinner Plate Set,Kitchen,24.74,medium,4.8,in_stock,433
+CUST004,3,ITEM050,0.8511176,Gym Bag,Fitness,108.81,high,3.9,in_stock,239
+CUST004,4,ITEM055,0.8453742,Waterproof Phone Pouch,Outdoor,109.73,high,4.7,in_stock,287
+CUST004,5,ITEM024,0.80345047,Reusable Face Pads,Personal Care,77.87,high,4.4,in_stock,471
+CUST004,6,ITEM045,0.73904514,Sports Water Bottle,Fitness,72.65,high,3.7,limited_stock,35
+CUST004,7,ITEM056,0.7215772,Foldable Chair,Outdoor,67.69,medium,4.4,in_stock,104
+CUST004,8,ITEM035,0.6727908,Noise Reducing Headset,Office Tech,145.75,high,4.1,in_stock,279
+CUST004,9,ITEM026,0.6625541,Shower Caddy,Personal Care,50.58,medium,4.7,in_stock,162
+CUST004,10,ITEM021,0.6616246,Electric Toothbrush,Personal Care,21.97,medium,4.8,in_stock,492
+CUST005,1,ITEM056,1.1940451,Foldable Chair,Outdoor,67.69,medium,4.4,in_stock,104
+CUST005,2,ITEM055,1.0412334,Waterproof Phone Pouch,Outdoor,109.73,high,4.7,in_stock,287
+CUST005,3,ITEM064,0.94074786,Washable Pet Bed,Pet Supplies,99.49,high,3.9,limited_stock,344
+CUST005,4,ITEM040,0.91474086,Notebook Sleeve,Office Tech,33.95,medium,4.5,in_stock,480
+CUST005,5,ITEM013,0.8969202,Storage Basket,Home,49.13,medium,4.4,in_stock,145
+CUST005,6,ITEM065,0.8499981,Treat Storage Jar,Pet Supplies,55.79,medium,4.3,limited_stock,473
+CUST005,7,ITEM036,0.79847866,Desk Webcam,Office Tech,79.56,high,4.2,in_stock,162
+CUST005,8,ITEM051,0.7742066,Lightweight Backpack,Outdoor,33.98,medium,4.4,in_stock,321
+CUST005,9,ITEM058,0.7624691,Solar Path Light,Outdoor,66.68,medium,3.6,in_stock,43
+CUST005,10,ITEM057,0.74695265,Garden Gloves,Outdoor,28.36,medium,3.6,in_stock,81

@@ -1,0 +1,11 @@
+rank,item_id,similarity_score,product_name,category,price,margin_band,average_rating,stock_status,product_age_days
+1,ITEM001,0.99999994,Stainless Saucepan,Kitchen,103.12,high,3.7,in_stock,503
+2,ITEM035,0.406125,Noise Reducing Headset,Office Tech,145.75,high,4.1,in_stock,279
+3,ITEM006,0.40003014,Digital Kitchen Scale,Kitchen,79.43,high,4.1,in_stock,527
+4,ITEM044,0.34424612,Adjustable Dumbbell,Fitness,34.12,medium,4.0,limited_stock,480
+5,ITEM013,0.33806756,Storage Basket,Home,49.13,medium,4.4,in_stock,145
+6,ITEM038,0.31794634,Cable Management Kit,Office Tech,126.85,high,3.9,in_stock,118
+7,ITEM012,0.30091852,Soft Throw Blanket,Home,21.85,medium,4.0,in_stock,531
+8,ITEM017,0.26111165,Laundry Hamper,Home,48.91,medium,4.6,in_stock,332
+9,ITEM011,0.2576544,Cotton Towel Set,Home,7.35,low,4.1,in_stock,277
+10,ITEM028,0.2500807,Sleep Mask,Personal Care,33.81,medium,3.6,in_stock,51
